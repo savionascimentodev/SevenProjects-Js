@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  display: flex;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+  text-decoration: none;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(
+    to right top,
+    #d16ba5,
+    #b263a2,
+    #925b9c,
+    #715393,
+    #514b86,
+    #464889,
+    #38468d,
+    #224490,
+    #2a46a6,
+    #3a47bc,
+    #5045cf,
+    #6a40e1
+  );
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+.keys {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.key {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  cursor: none;
+  font-weight: bold;
+}
+
+.key.active {
+  border: 2px solid #ffffff;
+  background-color: #6a40e1;
+}
+
+.composer {
+  width: 260px;
+  margin-top: 20px;
+}
+.composer #input {
+  width: 100%;
+  outline: none;
+  font-size: 17px;
+  padding: 10px 15px;
+}
+.composer button {
+  width: 100%;
+  border-radius: 50px;
+  height: 40px;
+  background: none;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Lucida Sans', sans-serif;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.composer button:hover {
+  background-color: #6a40e1;
+}
+
+footer {
+  max-width: 900px;
+  margin: 14px auto;
+  display: block;
+  text-align: center;
+  color: #aca8a8;
+}
+
+footer p {
+  transition: 0.2s;
+}
+
+footer p:hover {
+  color: #ffffff;
+}
+
+.links {
+  border: 0;
+  border-style: none;
+  display: block;
+  margin-top: 10px;
+}
+
+.links a {
+  margin-right: 10px;
+}
+
+.links img {
+  width: 24px;
+}
