@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Climate</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/cloud_weather_cloudy_forecast_sky_icon-icons.com_55350.ico"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Clima</h1>
+      <img
+        src="./assets/weather_cloudy_sun_cloud_icon_124155.svg"
+        alt="climate"
+      />
+    </header>
+
+    <form class="busca">
+      <input type="search" id="searchInput" />
+      <button>
+        <img
+          class="search-icon"
+          src="./assets/search_find_look_locate_icon-icons.com_59984.svg"
+          alt="search"
+        />
+        Buscar
+      </button>
+    </form>
+
+    <div class="resultado">
+      <div class="titulo">--</div>
+
+      <div class="info">
+        <div class="temp">
+          <div class="tempTitulo">Temperatura</div>
+          <div class="tempInfo">-- <sup>ºC</sup></div>
+          <img src="http://openweathermap.org/img/wn/10d@2x.png" />
+        </div>
+        <div class="vento">
+          <div class="ventoTitulo">Vento</div>
+          <div class="ventoInfo">-- <span>km/h</span></div>
+          <div class="ventoArea">
+            <div class="ventoPonto" style="transform: rotate(0deg)"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="aviso"></div>
+
+    <footer>
+      <p>Savio Nascimento - 2021</p>
+      <div class="links">
+        <a href="https://github.com/savionascimentodev" target="_blank">
+          <img
+            class="logo"
+            src="./assets/github-logo_icon-icons.com_73546.svg"
+            alt="github"
+          />
+        </a>
+        <a href="https://www.linkedin.com/in/savio-nascimento/" target="_blank">
+          <img
+            class="logo"
+            src="./assets/linkedin_icon-icons.com_65929.svg"
+            alt="Linkedin"
+          />
+        </a>
+      </div>
+    </footer>
+
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
